@@ -43,7 +43,7 @@ public class dataDownload {
             Game gra = new Game(res.getString("title"), res.getString("producer"), res.getString("sort"), res.getString("type"), res.getInt("price"), res.getInt("rating"));
             listaGier.add(gra);
         }
-        return listaGier;
+        return listaGier ;
      }
 
 }
